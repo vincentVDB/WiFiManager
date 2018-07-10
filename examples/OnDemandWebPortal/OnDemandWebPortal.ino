@@ -13,7 +13,7 @@ WiFiManager wm;
 
 int timeout           = 120; // seconds to run for
 bool webportalrunning = false;
-int start             = millis();
+unsigned long start             = millis();
 
 void setup() {
   // put your setup code here, to run once:
